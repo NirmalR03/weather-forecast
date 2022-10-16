@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mainbox {
+    background-image: url("img/imgbg.webp");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .searchbox {
+    height: 61px;
+    width: 417px;
+    border-top-left-radius: 30px;
+    border: none;
+    border-bottom-right-radius: 30px;
+    border-bottom: 4px solid #1be7d9;
+    background: #b69ddc;
+    outline: none;
+    padding: 0 5%;
+    font-size: larger;
+    color: #000000a6;
+    transition: 0.5s ease;
+  }
+  
+  .searchbox::placeholder {
+    color: #000000a6;
+    transition: 0.5s ease;
+  }
+  
+  .searchbox:focus::placeholder {
+    color: #9d4ec2;
+  }
+  header:hover{
+    height: 50px; 
+    font-size: 25px;
+    transition: 0.3s ease-out;
+    background-image: url("../NewFolder/img/img3.jpg");
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search {
+    height: 6vh;
+    width: 7vw;
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin: 10% 0;
+    font-size: medium;
+    box-shadow: 0px 0px 12px 1px rgb(0 0 0 / 48%);
+    transition: 0.5s ease-out;
+    background: aliceblue;
+  }
+  
+  :is(.location, .current) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+  }
+  
+  .city {
+    font-size: x-large;
+  }
+  
+  .temp {
+    font-size: 6em;
+    margin: 20% 0;
+    text-shadow: 0px 8px 1px rgb(0 0 0);
+    font-weight: bold; 
+    transition: width 2s;
+  }
+  .temp:hover{
+    color: rgb(239, 15, 127);
+    height: 150px;
+    font-size: 8em;
+    transition: 0.7s ease-out;
+    background-image: url("img/img2.jpg");
+    background-size: cover;
+  }
+  
+  .weather {
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 600;
+    text-shadow: 0px 1px 5px black;
+  }
+  
+  .hilow {
+    font-size: xx-large;
+    font-weight: 100;
+    text-shadow: 0px 1px 5px black;
+  }
+  .hilow:hover{
+    color: rgb(17, 236, 17);
+    height: 50px; 
+    font-size: 3em;
+    transition: 0.7s ease-out;
+    background-image: url("img/img2.jpg");
+    background-size: 400px;
+  }
